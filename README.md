@@ -90,9 +90,18 @@ You can adjust scoring behavior and thresholds in `config.py`.
 
 ### Basic Usage
 
+On a Mac: 
+
 ```bash
 python spam_classifier.py --input data/sample.csv
 ```
+
+On a Windows: 
+
+```bash
+py spam_classifier.py --input data/sample.csv
+```
+
 
 ### With Custom Column Names
 
@@ -159,7 +168,7 @@ F1-Score (SPAM): 100.00%
 python spam_classifier.py --input data/sample.csv --text-column text --label-column label
 ```
 
-Expected output: All 16 sample messages classified correctly (100% accuracy).
+We are looking to see you improve your classifier. We will discuss more structured ways to do this in the future.
 
 ---
 
@@ -184,4 +193,4 @@ No external packages required.
 
 ## License
 
-MIT (or your choice)
+MIT 
